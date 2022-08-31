@@ -3,7 +3,8 @@
 
 <head>
     <title>annie k :)</title>
-    <link rel="shortcut icon" type="image/x-icon" href="https://raw.githubusercontent.com/anniebug2020/anniekoontz.github.io/main/favicon.ico">
+    <link rel="shortcut icon" type="image/x-icon"
+        href="https://raw.githubusercontent.com/anniebug2020/anniekoontz.github.io/main/favicon.ico">
     <meta charset="UTF-8" />
     <meta name="keywords" content="HTML, CSS, JavaScript">
     <meta name="description" content="Annie Koontz's Personal Website">
@@ -49,12 +50,14 @@
         li {
             color: white;
         }
+
         /* all text will default to white */
         .annienavbar {
             width: 90%;
             display: flex;
             justify-content: left;
         }
+
         /* defines box area for navbar */
         header {
             padding: 20px;
@@ -87,12 +90,14 @@
             text-decoration: none;
             font-size: 20px;
         }
+
         /* sets colors for navbar links */
         .contactimagebox {
             margin-left: auto;
             margin-right: auto;
             width: 300px;
         }
+
         /* defines box that is used to store contact images in */
         img {
             max-width: 100%;
@@ -128,6 +133,7 @@
             background-attachment: fixed;
             background-position: center; */
         }
+
         /* defines page content which is used to store ALL div boxes and text after the navbar */
         .annieswhitebox {
             margin-top: 0px;
@@ -136,23 +142,36 @@
             height: 400px;
             max-width: 100%;
             background-color: white;
+            position: relative;
         }
+
         .annieswhitebox h1 {
-            color:#B6BEC1;
+            color: #B6BEC1;
         }
+
+        .vertical-center {
+            margin: 0;
+            position: absolute;
+            top: 50%;
+            -ms-transform: translateY(-50%);
+            transform: translateY(-50%);
+            width: 100%;
+        }
+
         /* defines page content which is used to store ALL div boxes and text after the navbar */
+
         .blueboxwords {
             font-size: 20px;
             padding-top: 120px;
             padding-left: 250px
         }
-        /* wordsinsidebox is used as the  class for all webpages. this is where you type all the words in and it makes sure stufff is centered*/
 
+        /* wordsinsidebox is used as the  class for all webpages. this is where you type all the words in and it makes sure stufff is centered*/
     </style>
 </head>
 
 <BODY>
-    
+
     <header>
         <div class="annienavbar">
             <nav>
@@ -165,7 +184,7 @@
                     <li><a href="https://www.youtube.com/channel/UCSJbw_CcBy9S4sfqlrEbKMg">YouTube</a></li>
                     <li><a href="https://www.anniekoontz.com/blog/">Blog</a></li>
                 </ul>
-            </nav>        
+            </nav>
         </div>
     </header>
 
@@ -180,30 +199,36 @@
 
 
     <div class="annieswhitebox">
-            <video width="480" height="270" controls>
-                <source src="https://github.com/anniebug2020/anniekoontz.github.io/blob/main/birds.mp4?raw=true" type="video/mp4">
-                <source src="https://github.com/anniebug2020/anniekoontz.github.io/blob/main/birds.mp4?raw=true" type="video/ogg">
-            Your browser does not support the video tag.
-            </video>
+        <div class="vertical-center">
+            <center>
+                <video width="480" height="270" controls>
+                    <source src="https://github.com/anniebug2020/anniekoontz.github.io/blob/main/birds.mp4?raw=true"
+                        type="video/mp4">
+                    <source src="https://github.com/anniebug2020/anniekoontz.github.io/blob/main/birds.mp4?raw=true"
+                        type="video/ogg">
+                    Your browser does not support the video tag.
+                </video>
+            </center>
+        </div>
     </div>
 
 
 
 
 
-    
+
     <div class="anniesbluebox">
         <div class="blueboxwords">
             <h1>annie faith koontz</h1>
         </div>
     </div>
 
-    
-    
-    
-    
-    
 
 
-        
+
+
+
+
+
+
 </html>
